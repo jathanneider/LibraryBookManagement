@@ -1,3 +1,2 @@
 kagglehub
-pandas
 psycopg2
