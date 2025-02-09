@@ -5,7 +5,7 @@ I ran out of time (this was an assignment) and was not able to finish ALL of my 
 of the program is operable. You should be able to search by Book Name or Author and Recommend Something will randomly recommend a book to you.
 
 
-Requirements: 
+REQUIREMENTS: 
 
 Minimum Requirements:
 Python 3.9.6
@@ -21,7 +21,7 @@ MacOS(HomeBrew) - brew services start postgresql
 
 Linux - sudo systemctl start postgresql
 
-Running the Program: Navigate to the Project Folder in Command Line or Terminal.
+RUNNING THE PROGRAM: Navigate to the Project Folder in Command Line or Terminal.
 
 Windows:
 .\gradlew.bat clean
@@ -33,13 +33,14 @@ MacOS & Linux:
 ./gradlew build
 ./gradlew run
 
+IF POSTGRESQL REQUIRES A PASSWORD:
 My version of PostgresSQL didnt seem to require Authentication for my program to run, but my understanding is that this can depend
 on what version you installed and how you installed it. I installed using HomeBrew on MacOS.
 
 If you have Authentication issues check DatabaseManagement.java, data_import.py, and BookDAO.java anywhere that you see "yourpassword" you should be
 able to replace with your PostgreSQL password. Likewise if you didnt use the default PostgreSQL username you may need to change that as well.
 
-
+NOTES ON DEPENDENICES:
 Dependencies Should Automatically Install when you run the Progam, but if they dont:
 
 Navigate to the project folder in Command Line or Terminal
